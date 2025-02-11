@@ -50,5 +50,6 @@ export class AppController {
   testReqRes(@Req() req: Request, @Res() res: Response): void {
     console.log(req);
     console.log(res);
+    console.log("Tested")
   }
 }
